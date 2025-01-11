@@ -1,0 +1,48 @@
+/* src/components/Dashboard.css */
+.dashboard-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f4f7fc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .chart-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-container {
+      padding: 15px;
+    }
+  
+    .dashboard-title {
+      font-size: 1.5rem;
+    }
+  
+    .chart-container {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .dashboard-title {
+      font-size: 1.2rem;
+    }
+  
+    .chart-container {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,124 @@
+/* Main container */
+.sleep-analysis {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title */
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Input group styling */
+  .input-group {
+    margin-bottom: 25px;
+  }
+  
+  /* Label styling */
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  /* Input field styling */
+  input[type="time"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input[type="time"]:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Result section styling */
+  .result {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: #444;
+  }
+  
+  .result p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Feedback box styling */
+  .feedback-box {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #e3f7e9;
+    border: 1px solid #b3e0b3;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #2f7f2f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* For mobile responsiveness */
+  @media (max-width: 768px) {
+    .sleep-analysis {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    input[type="time"],
+    button {
+      font-size: 14px;
+    }
+  
+    .result h3 {
+      font-size: 18px;
+    }
+  }
+  
